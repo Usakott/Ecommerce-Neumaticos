@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer";
 
 const Catalogo = () => {
   return (
-    <div className="min-h-screen py-50">
+    <section className="min-h-screen py-50">
       <h1 className="text-4xl font-bold text-center py-12">Nuestro Catálogo</h1>
       
       <section className="px-10 grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -22,9 +22,7 @@ const Catalogo = () => {
           <p>Descripción breve del producto.</p>
         </div>
       </section>
-
-      <Footer />
-    </div>
+    </section>
   );
 };
 
